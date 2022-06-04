@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Jacquot le garageot</title>
+<!--FONTS-->	
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Lobster&family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
+<!--FONT AWESOME-->
+	<script src="https://kit.fontawesome.com/a29f2f46dd.js" crossorigin="anonymous"></script>
+<!--CSS-->
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+
+<body>
+	
+	<header>
+		<nav>
+			<a href="#"><i class="fas fa-home"></i>Accueil</a>
+			
+			<a href="#"><i class="far fa-calendar-alt"></i>Rendez-vous</a>
+			
+			<a href="#"><i class="fas fa-book"></i>L'équipe</a>
+			
+			<a href="#"><i class="far fa-image"></i>Album Photo</a>
+			
+			<a href="#"><i class="fas fa-envelope"></i>Nous contacter</a>
+		</nav>
+
+		<em> <span>Offre</span> 2017 : une roue achetée, une autre pas gratuite !</em>
+
+		<h1>Bienvenue chez Jacquot le garageot</h1>
+	
+	</header>
+
+	<main>
+
+		<h2>Quelques uns de nos prix</h2>
+
+		<table>
+			
+			<tr>
+				<th colspan="3">En réparation</th>
+			</tr>
+			<tr>
+				<td>Changer un pneu</td>
+				<td>10 minutes</td>
+				<td>
+					<a href="#">8000 €</a>
+				</td>
+			</tr>
+			<tr>
+				<td>Changer une vitre</td>
+				<td>40 minutes</td>
+				<td>
+					<a href="#">12000 €</a>
+				</td>
+			</tr>
+			<tr>
+				<td>Changer rien</td>
+				<td>0 minute</td>
+				<td>
+					<a href="#">1000 €</a>
+				</td>
+			</tr>
+			<tr>
+				<td>Regarder la voiture</td>
+				<td>2 minutes</td>
+				<td>
+					<a href="#">1000 €</a>
+				</td>
+			</tr>
+		</table>
+
+		<table>
+			<tr>
+				<th colspan="3">En tunning</th>
+			</tr>
+			<tr>
+				<td>Regarder la peinture</td>
+				<td>2 minutes</td>
+				<td>
+					<a href="#">1000 €</a>
+				</td>
+			</tr>
+			<tr>
+				<td>Peindre une aile</td>
+				<td>10 minutes</td>
+				<td>
+					<a href="#">7500 €</a>
+				</td>
+			</tr>
+			<tr>
+				<td>Rayer la voiture</td>
+				<td>5 minutes</td>
+				<td>
+					<a href="#">C'est cadeau !</a>
+				</td>
+			</tr>
+			<tr>
+				<td>Faire des flammes</td>
+				<td>400 minutes</td>
+				<td>
+					<a href="#">1 milion d'€</a>
+				</td>
+			</tr>
+		</table>
+		
+		<h2>Pour réserver un créneau horaire, compléter ce formulaire</h2>
+		
+		<form method="post" action="#">
+			<fieldset>
+				<legend>Vos coordonées</legend>
+				<label for="prenom">Votre prénom :</label>
+				<input type="text" name="prenom" id="prenom">
+				<label for="nom">Votre nom :</label>
+				<input type="text" name="nom" id="nom">
+				<label for="mail">Votre mail :</label>
+				<input type="mail" name="mail" id="mail">
+			</fieldset>
+
+			<fieldset>
+				<legend>Quelles sont les raisons de votre venue ?</legend>
+				<label for="entretient">Je dois entretenir mon véhicule</label>
+				<input type="checkbox" name="entretient" id="entretient">
+				<label for="argent">J'ai trop d'argent</label>
+				<input type="checkbox" name="argent" id="argent">
+				<label for="accident">J'ai eu un accident</label>
+				<input type="checkbox" name="accident" id="accident">
+			</fieldset>
+
+			<fieldset>
+				<legend>Voulez-vous souscrire à notre programme de fidélité ?</legend>
+				<label for="oui">Oui</label>
+				<input type="radio" name="fidélité" value="oui" id="oui">
+				<label for="non">Non</label>
+				<input type="radio" name="fidélité" value="non" id="non">
+			</fieldset>
+
+			<fieldset>
+				<legend>Comment avez-vous connu Ila Yoga ?</legend>
+				<label for="comment"> </label>
+				<select name="comment" id="comment">
+					<option value="Par internet">Par internet</option>
+					<option value="Par une conaissance">Par une conaissance</option>
+					<option value="Par une pub">Par une pub</option>
+				</select>
+			</fieldset>
+
+			<input type="submit" name="envoyer" id="envoyer">
+
+		</form>
+	</main>
+	<footer>
+		<small>Copyright 2017</small>
+	</footer>
+</body>
+</html>
